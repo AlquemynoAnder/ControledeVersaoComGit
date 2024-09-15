@@ -18,10 +18,11 @@ namespace Calculadora{
             double resultado = 0.00;
             int escolha;
             
-            
+            Console.WriteLine(DateTime.Now.ToLongDateString());
+            Console.WriteLine("Versão da Aplicação: 1.0");
             Console.WriteLine("Qual seu nome? ");
             string userName = Console.ReadLine()!;
-            Console.WriteLine("Certo, "+ userName+"," +" escolha o tipo de calculo abaixo.");
+            Console.WriteLine("Ok, "+ userName+"," +" escolha o tipo de calculo abaixo.");
             Console.WriteLine("1 - Soma");
             Console.WriteLine("2 - Subtração");
             Console.WriteLine("3 - Multiplicação");
@@ -46,8 +47,13 @@ namespace Calculadora{
             Console.WriteLine(userName+", "+"o resultado é "+resultado);
             }
             else if(escolha == 4){
-            resultado = value1 / value2;
-            Console.WriteLine(userName+", "+"o resultado é "+resultado);
+                if(value2 != 0){
+                    resultado = value1 / value2;
+                    Console.WriteLine(userName+", "+"o resultado é "+resultado);
+                }
+                else{
+                    Console.WriteLine("O divisor não pode ser 0");
+                }
             }
 
 

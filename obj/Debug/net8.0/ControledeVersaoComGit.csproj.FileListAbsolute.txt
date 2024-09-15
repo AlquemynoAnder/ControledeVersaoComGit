@@ -12,3 +12,4 @@ C:\Users\ander\OneDrive\Área de Trabalho\Dev Projects\ControledeVersaoComGit\ob
 C:\Users\ander\OneDrive\Área de Trabalho\Dev Projects\ControledeVersaoComGit\obj\Debug\net8.0\ControledeVersaoComGit.pdb
 C:\Users\ander\OneDrive\Área de Trabalho\Dev Projects\ControledeVersaoComGit\obj\Debug\net8.0\ControledeVersaoComGit.genruntimeconfig.cache
 C:\Users\ander\OneDrive\Área de Trabalho\Dev Projects\ControledeVersaoComGit\obj\Debug\net8.0\ref\ControledeVersaoComGit.dll
+C:\Users\ander\OneDrive\Área de Trabalho\Dev Projects\ControledeVersaoComGit\obj\Debug\net8.0\ControledeVersaoComGit.sourcelink.json
