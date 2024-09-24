@@ -9,6 +9,8 @@
 
 0 - Sair
 */
+using System.Security.Cryptography.X509Certificates;
+
 namespace Calculadora{
 
     class Menu{
@@ -16,19 +18,21 @@ namespace Calculadora{
         static public void Main(){
         
             double resultado = 0.00;
-            int escolha;
             
+
             Console.WriteLine(DateTime.Now.ToLongDateString());
             Console.WriteLine("Versão da Aplicação: 1.0");
             Console.WriteLine("Qual seu nome? ");
             string userName = Console.ReadLine()!;
-            Console.WriteLine("Ok, "+ userName+"," +" escolha o tipo de calculo abaixo.");
+
+            inicio:
+            Console.WriteLine("Certo, "+ userName+"," +" escolha o tipo de calculo abaixo.");
             Console.WriteLine("1 - Soma");
             Console.WriteLine("2 - Subtração");
             Console.WriteLine("3 - Multiplicação");
             Console.WriteLine("4 - Divisão");
             
-            escolha = Convert.ToInt16(Console.ReadLine());
+            int escolha = Convert.ToInt16(Console.ReadLine());
             Console.WriteLine("Informe um primeiro valor");
             double value1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Informe um segundo valor");
@@ -56,7 +60,14 @@ namespace Calculadora{
                 }
             }
 
-
+            Console.Write("deseja calcular novamente, "+userName+"? [s/n]: ");
+            string escolha2 = Console.ReadLine()!;
+            if(escolha2 == "s" || escolha2 == "S"){
+                goto inicio;
+            }else{
+                Console.Clear();
+                Console.WriteLine("Fim do Programa");
+            }
 
 
             

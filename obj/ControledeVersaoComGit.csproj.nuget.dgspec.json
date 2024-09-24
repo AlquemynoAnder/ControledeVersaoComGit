@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ander\\OneDrive\\Área de Trabalho\\Dev Projects\\ControledeVersaoComGit\\ControledeVersaoComGit.csproj": {}
+    "C:\\Users\\ander\\OneDrive\\Área de Trabalho\\Dev Projects\\Projetos Desafios\\CalculadoraSimples\\ControledeVersaoComGit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ander\\OneDrive\\Área de Trabalho\\Dev Projects\\ControledeVersaoComGit\\ControledeVersaoComGit.csproj": {
+    "C:\\Users\\ander\\OneDrive\\Área de Trabalho\\Dev Projects\\Projetos Desafios\\CalculadoraSimples\\ControledeVersaoComGit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ander\\OneDrive\\Área de Trabalho\\Dev Projects\\ControledeVersaoComGit\\ControledeVersaoComGit.csproj",
+        "projectUniqueName": "C:\\Users\\ander\\OneDrive\\Área de Trabalho\\Dev Projects\\Projetos Desafios\\CalculadoraSimples\\ControledeVersaoComGit.csproj",
         "projectName": "ControledeVersaoComGit",
-        "projectPath": "C:\\Users\\ander\\OneDrive\\Área de Trabalho\\Dev Projects\\ControledeVersaoComGit\\ControledeVersaoComGit.csproj",
+        "projectPath": "C:\\Users\\ander\\OneDrive\\Área de Trabalho\\Dev Projects\\Projetos Desafios\\CalculadoraSimples\\ControledeVersaoComGit.csproj",
         "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ander\\OneDrive\\Área de Trabalho\\Dev Projects\\ControledeVersaoComGit\\obj\\",
+        "outputPath": "C:\\Users\\ander\\OneDrive\\Área de Trabalho\\Dev Projects\\Projetos Desafios\\CalculadoraSimples\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
